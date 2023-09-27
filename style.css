@@ -1,9 +1,19 @@
+/* Index Page */
+
+html body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .welcome {
     margin-top: 160px;
     margin-left: 10%;
     margin-right: 10%;
     font-weight: 100;
 }
+
+/* Call To Action Button */
 
 .calltoaction {
     margin-top: 360px;
@@ -26,6 +36,8 @@
     cursor: pointer;
 }
 
+/* About us Page */
+
 .about {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
@@ -37,4 +49,63 @@
     padding: 5px 30px 10px 30px;
     box-shadow: 0px 0px 10px gray;
     border-radius: 10px;
+}
+
+/* Scroll to Top Button */
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 250px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    font-size: large;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 30px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #0056b3;
+  }
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 100px 30px 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 16px rgb(22, 73, 240);
+    border-top: 3px solid white;
+}
+
+/* Footer Links */
+
+.links {
+    text-align: right;
+    margin: 0px;
+}
+
+.links ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 6px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: rgb(52, 118, 218);
+    text-decoration: none;
 }

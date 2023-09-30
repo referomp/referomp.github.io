@@ -78,34 +78,79 @@ html body {
 footer {
     background-color: black;
     color: white;
-    padding: 30px 100px 30px 100px;
+    text-align: center;
+    padding: 30px 5% 20px 5%;
     margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     box-shadow: 0px 0px 16px rgb(22, 73, 240);
     border-top: 3px solid white;
 }
 
-/* Footer Links */
-
-.links {
-    text-align: right;
-    margin: 0px;
+footer .trademark {
+    margin-top: 20px;
+    font-size: 14px;
 }
 
-.links ul{
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer hr{
+    border: 1px solid rgb(88, 88, 88);
+}
+
+
+/* Footer Links */
+
+    /* Social Media */
+
+.socialmedia {
+    width: auto;
+    text-align: right;
+    margin: 0px;
+    padding-right: 5%;
+}
+
+.socialmedia ul{
     list-style: none;
     text-align: right;
     margin-top: 6px;
 }
-
-.links a{
+.socialmedia a{
     color: white;
     text-decoration: none;
 }
 
-.links a:hover{
+.socialmedia a:hover{
+    color: rgb(52, 118, 218);
+    text-decoration: none;
+}
+
+    /* Quick Links (FAQ, Contact, PP, Cookies) */
+
+.quicklinks {
+    width: auto;
+    text-align: left;
+    margin: 0px;
+    padding-left: 5%;
+}
+
+.quicklinks ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 6px;
+}
+
+.quicklinks a{
+    color: white;
+    text-decoration: none;
+}
+
+.quicklinks a:hover{
     color: rgb(52, 118, 218);
     text-decoration: none;
 }

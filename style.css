@@ -6,22 +6,78 @@ html body {
     padding: 0;
 }
 
+.whitespace {
+    margin-top: 15vh;
+}
+
 .welcome {
-    margin-top: 160px;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.welcome h1{
+    text-wrap: nowrap;
+    font-size: 3rem;
+    text-align: left;
+    width: 50%;
+    text-align: left;
+    margin: 0 20% 0 20%;
+    font-weight: 700;
+}
+
+.welcome h2 {
+    margin: 0 0 0 20%;
+}
+
+.welcome-image1 {
+    max-width: 40%;
+    min-width: 350px;
+    max-height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    margin: 0 10% 0px 10%;
+    object-fit: cover;
+}
+
+.welcome-desc {
+    max-width: 80%;
+    margin: 5% 10% 5% 10%;
+}
+
+.adopters h2{
+    font-variant: small-caps;
+    padding-left: 10%;
+    margin-bottom: 1%;
+}
+
+.logos {
+    box-shadow: 0px 0px 10px grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    gap: 50px;
+}
+
+.adopters-logos {
+    max-width: 45%;
+    max-height: 80px;
+    object-fit: contain;
 }
 
 /* Call To Action Button */
 
 .calltoaction {
-    margin-top: 360px;
-    margin-left: 50%;
+    margin: 35% 5% 5% 20%;
     font-weight: 650;
     max-width: fit-content;
+    text-wrap: nowrap;
     background-color: rgb(28, 81, 255);
-    padding: 5px 30px 10px 30px;
+    padding: 1px 20px 3px 20px;
     box-shadow: 0px 0px 10px gray;
     border-radius: 10px;
 }

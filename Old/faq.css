@@ -1,0 +1,29 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    width: 75%;
+    padding: 20px 40px 40px 40px;
+    border-radius: 10px;
+    gap: 20px;
+    box-shadow: 0 0 10px gray;
+} 
+
+.faq h1 {
+    font-size: 220%;
+    text-align: left;
+}
+
+.faq article {
+    display: block;
+    text-align: left;
+    background-color: rgb(236, 236, 236);
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(145, 145, 145);
+}

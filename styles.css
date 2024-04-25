@@ -307,6 +307,10 @@ main {
     gap: 2em;
 }
 
+.blog-home p {
+    text-align: justify;
+}
+
 .blog-home a {
     color: unset;
 }

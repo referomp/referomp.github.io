@@ -8,7 +8,7 @@
 
 /* Root Varieties*/
 :root {
-    --color-themed: rgb(19, 19, 223);
+    --color-themed: rgb(25, 91, 233);
     --color-light-themed: rgb(165, 165, 165);
     --color-grey: grey;
     --color-dark-grey: rgb(72, 76, 117);
@@ -18,6 +18,7 @@
     --color-text-light-themed: var(--color-light-themed);
     --color-text-neutral: black;
     --color-text-white: white;
+    --color-text-grey: var(--color-grey);
     --color-text-dark-grey: var(--color-dark-grey);
 }
 :root {
@@ -411,20 +412,33 @@ article h3 {
 /* Footer */
 footer {
     grid-area: footer;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(50, 50, 50);
     color: white;
-    text-align: center;
-    padding: 30px 5% 20px 5%;
     box-shadow: 0px 0px 16px rgb(22, 73, 240);
     border-top: 3px solid white;
 }
 
-footer .trademark {
-    margin-top: 20px;
-    font-size: 14px;
+footer a{
+    color: white;
 }
 
-.footerflex {
+footer a:hover{
+    color: rgb(52, 118, 218);
+    text-decoration: underline;
+}
+
+footer .trademark {
+    margin: 20px auto 1rem auto;
+    padding: 0 1rem 0 1rem;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+/* .footerflex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -432,24 +446,98 @@ footer .trademark {
     margin-right: auto;
     margin-left: auto;
     width: 70%;
-}
+} */
 
-footer hr{
+/* footer hr{
     border: 1px solid rgb(88, 88, 88);
     width: 70%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
-}
+} */
 
 /* Footer Links */
+
+.footerLinks{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.4rem;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    justify-content: space-between;
+}
+
+.mission{
+    max-width: 40%;
+}
+
+.mission a{
+    color: rgb(52, 118, 218);
+}
+
+.footerLinks div ul{
+    list-style-type: none;
+    color: white;
+    line-height: 1.6rem;
+}
+
+.footerLinks h4{
+    margin-bottom: 12px;
+}
+
+.footerForm{
+    display: flex;
+    width: fit-content;
+    box-shadow: 0 0 10px var(--color-background-neutral);
+}
+
+.footerForm input{
+    padding: 6px 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+}
+
+.footerForm button{
+    padding: 6px 12px;
+    border: 0;
+    background-color: var(--color-background-themed);
+    transition: 0.4s;
+    color: var(--color-text-white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footerForm button:hover{
+    cursor: pointer;
+    background-color: var(--color-dark-grey);
+    transition: 0.4s;
+}
+
+.newsletter span{
+    display: block;
+    margin-top: 8px;
+    color: greenyellow;
+}
+
+#copyright {
+    padding: 1rem 1rem 1.4rem 1rem;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: rgb(0, 0, 0);
+}
 
     /* Social Media */
 
 .socialmedia ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     list-style: none;
-    text-align: right;
     margin-top: 6px;
+    font-size: 30px;
 }
 .socialmedia a{
     color: white;
@@ -462,6 +550,7 @@ footer hr{
 
     /* Quick Links (FAQ, Contact, PP, Cookies) */
 
+/* 
 .quicklinks {
     text-align: left;
 }
@@ -478,7 +567,7 @@ footer hr{
 
 .quicklinks a:hover{
     color: rgb(52, 118, 218);
-}
+} */
 
 
 /* Medias */
@@ -492,6 +581,9 @@ footer hr{
     }
     .article-desc{
         flex-direction: column;
+    }
+    .mission{
+        max-width: 100%;
     }
 }
 

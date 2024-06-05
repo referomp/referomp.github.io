@@ -196,19 +196,17 @@ main {
 /* Index Page */
 .wrapper {
     display: grid;
-    margin: 4rem auto 12rem auto;
-    padding: 2rem;
+    margin: 1rem auto 2rem auto;
     justify-items: center;
     max-width: 1200px;
-    column-gap: 2rem;
-    row-gap: 8rem;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .headline {
-    align-self: center;
     max-width: 60ch;
     min-height: 40dvh;
+    margin: 1rem;
 }
 
 .headline h1 {
@@ -285,18 +283,28 @@ main {
 
 .feature-image{
     display: block;
-    width: 100%;
+    width: 90%;
     height: auto;
     object-fit: cover; 
     image-rendering: optimizeSpeed;
     box-shadow: 0 0 10px var(--color-border-grey);  
 }
 
-.land-faq {
+.land-faq{
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    padding: 4em 2em;
     flex-direction: column;
+}
+
+.land-faq h3{
+    margin-top: 1.4em;
+}
+
+.land-faq p{
+    text-indent: 24px;
+    margin-top: 0.4em;
 }
 
 /* Early Bird Page */

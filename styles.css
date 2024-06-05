@@ -344,7 +344,6 @@ main {
     flex-direction: column;
 }
 
-
 /* Blog homePage */
 .blog-home {
     max-width: 900px;
@@ -438,26 +437,7 @@ footer .trademark {
     row-gap: 1rem;
 }
 
-/* .footerflex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-right: auto;
-    margin-left: auto;
-    width: 70%;
-} */
-
-/* footer hr{
-    border: 1px solid rgb(88, 88, 88);
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-} */
-
 /* Footer Links */
-
 .footerLinks{
     margin-left: auto;
     margin-right: auto;
@@ -548,30 +528,7 @@ footer .trademark {
     color: rgb(52, 118, 218);
 }
 
-    /* Quick Links (FAQ, Contact, PP, Cookies) */
-
-/* 
-.quicklinks {
-    text-align: left;
-}
-
-.quicklinks ul {
-    list-style-type: none;
-    margin-top: 6px;
-}
-
-.quicklinks a{
-    color: white;
-    text-decoration: none;
-}
-
-.quicklinks a:hover{
-    color: rgb(52, 118, 218);
-} */
-
-
 /* Medias */
-
 @media (max-width: 820px) {
     .hideOnMobile{
         display: none;

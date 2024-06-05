@@ -27,3 +27,42 @@
         <p>Copyright &copy; 2024 ReFERO&reg; &#8285; All Rights Reserved &#8285; ReFERO is a registered Trademark</p>
     </div>
 </footer>
+
+/* .footerflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+} */
+
+/* footer hr{
+    border: 1px solid rgb(88, 88, 88);
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+} */
+
+    /* Quick Links (FAQ, Contact, PP, Cookies) */
+
+/* 
+.quicklinks {
+    text-align: left;
+}
+
+.quicklinks ul {
+    list-style-type: none;
+    margin-top: 6px;
+}
+
+.quicklinks a{
+    color: white;
+    text-decoration: none;
+}
+
+.quicklinks a:hover{
+    color: rgb(52, 118, 218);
+} */

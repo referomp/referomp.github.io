@@ -345,11 +345,37 @@ main {
 
 /* About Us Page */
 .about {
-    max-width: 70ch;
+    max-width: 1000px;
     margin: auto;
     padding: 80px 4%;
     display: flex;
     flex-direction: column;
+}
+
+.about h1{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+    url(/images/whiteboard-and-person-scaledown.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: var(--color-text-white);
+    padding: 16%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about h2{
+    margin: 30px 0 6px;
+    max-width: 80%;
+}
+
+.about p{
+    margin-top: 12px;
+    text-indent: 20px;
 }
 
 /* Blog homePage */

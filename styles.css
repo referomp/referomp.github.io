@@ -186,8 +186,8 @@ nav ul li:nth-last-child(2):hover {
 /* General Page Layout */
 main {
     grid-area: main;
-    margin-top: 80px;
-    min-height: 100vh;
+    margin-top: 60px;
+    /* min-height: 100vh; */
     min-height: 100dvh;
     background-color: white;
     transition: 0.3s;
@@ -196,8 +196,8 @@ main {
 /* Index Page */
 .wrapper {
     display: grid;
-    margin: 1rem auto 2rem auto;
-    justify-items: center;
+    margin: 1rem auto 20rem auto;
+    /* justify-items: center; */
     max-width: 1200px;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -206,7 +206,7 @@ main {
 .headline {
     max-width: 60ch;
     min-height: 40dvh;
-    margin: 1rem;
+    margin: 3rem;
 }
 
 .headline h1 {
@@ -283,9 +283,10 @@ main {
 
 .feature-image{
     display: block;
-    width: 90%;
-    height: auto;
+    width: auto;
+    max-width: 90%;
     object-fit: cover; 
+    justify-self: center;
     image-rendering: optimizeSpeed;
     box-shadow: 0 0 10px var(--color-border-grey);  
 }

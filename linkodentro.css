@@ -72,7 +72,7 @@
 .linkodentro div a{
     margin: 20px 10% 0;
     padding: 14px;
-    max-width: 480px;
+    max-width: 880px;
     background-color: var(--color-background-neutral);
     box-shadow: 0 0 10px grey;
     border-radius: 8px;

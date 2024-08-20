@@ -252,14 +252,14 @@ main {
 }
 
 .cta-button {
-    padding: 8px 16px;
+    padding: 8px 26px;
     max-width: fit-content;
     text-wrap: nowrap;
     border-radius: 64px;
     color: var(--color-text-white);
     box-shadow: 4px 4px 10px gray;
     font-size: 1.275rem;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     background-color: var(--color-themed);
 }
@@ -623,7 +623,9 @@ footer .trademark {
     }
     .headline{
         max-width: 100%;
-        font-size: 15px;
+    }
+    .headline h1{
+        font-size: 26px;
     }
     .landing-page img {
         max-width: 100%;

@@ -167,7 +167,7 @@ nav ul li:nth-last-child(2):hover {
 
 .dark-mode-btn {
     position: fixed;
-    margin: 48rem 0 10rem 106rem;
+    margin: 38rem 0 10rem 106rem;
     padding: 0.6rem;
     border: 0;
     font-weight: 600;
@@ -187,43 +187,66 @@ nav ul li:nth-last-child(2):hover {
 main {
     grid-area: main;
     margin-top: 60px;
+    padding: 0 4%;
     /* min-height: 100vh; */
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
     background-color: white;
     transition: 0.3s;
 }
 
 /* Index Page */
-.wrapper {
-    display: grid;
-    margin: 1rem auto 20rem auto;
-    /* justify-items: center; */
-    max-width: 1200px;
+
+.landing-page {
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 2rem auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .headline {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.landing-page img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* .wrapper {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: center;
+    /* max-width: 1200px;
+    gap: 1rem;
+} */ 
+
+/* .headline {
     max-width: 60ch;
     min-height: 40dvh;
     margin: 3rem;
 }
 
 .headline h1 {
-    color: blue;
     margin-bottom: 1rem;
+    color: var(--color-text-themed);
+    font-weight: 500;
 }
 
 .headline h2 {
-    color: rgb(93, 93, 255);
     font-weight: 400;
     max-width: 36ch;
-}
+} */
 
 /* CTA Headline Button */
 
 .CTA {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     column-gap: 2rem;
@@ -247,9 +270,22 @@ main {
     cursor: pointer;
 }
 
+.supporters {
+    margin: 2rem auto 6rem;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.supporters a img{
+    width: 300px;
+}
+
 /* General Landing Page Feature Rules */
 
-.feature1 h3{
+/* .feature1 h3{
     font-size: 1.4rem;
     color: var(--color-text-themed);
     padding-bottom: 1em;
@@ -289,9 +325,9 @@ main {
     justify-self: center;
     image-rendering: optimizeSpeed;
     box-shadow: 0 0 10px var(--color-border-grey);  
-}
+} */
 
-.land-faq{
+/* .land-faq{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -306,7 +342,7 @@ main {
 .land-faq p{
     text-indent: 24px;
     margin-top: 0.4em;
-}
+} */
 
 /* Early Bird Page */
 .earlybird {
@@ -577,6 +613,10 @@ footer .trademark {
     }
     .mission{
         max-width: 100%;
+    }
+    .headline{
+        max-width: 100%;
+        font-size: 15px;
     }
 }
 

@@ -1,0 +1,18 @@
+.privacy {
+    max-width: 1200px;
+    padding: 4%;
+}
+
+.privacy h2{
+    margin: 20px 0 0;
+}
+
+.privacy ul{
+    margin: 8px 44px;
+    list-style-type: square;
+}
+
+.privacy p{
+    margin-top: 16px;
+    text-indent: 3ch;
+}

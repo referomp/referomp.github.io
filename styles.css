@@ -271,7 +271,7 @@ main {
 }
 
 .supporters {
-    margin: 2rem auto 4rem;
+    margin: 2rem auto 0;
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -365,7 +365,6 @@ main {
 .par-start {
     text-indent: 5%;
     line-height: 1.3rem;
-    
 }
 
 .earlybird h2 {
@@ -489,6 +488,7 @@ article h3 {
 /* Footer */
 footer {
     grid-area: footer;
+    margin-top: 40px;
     background-color: rgb(50, 50, 50);
     color: white;
     box-shadow: 0px 0px 16px rgb(22, 73, 240);

@@ -1,5 +1,6 @@
 .privacy {
-    max-width: 1200px;
+    max-width: 100ch;
+    line-height: 1.75;
     padding: 4%;
 }
 

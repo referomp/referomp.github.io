@@ -1,3 +1,8 @@
+.interest {
+    max-width: 100ch;
+    line-height: 1.75;
+}
+
 .interest h1{
     margin: 40px 0 20px;
 }

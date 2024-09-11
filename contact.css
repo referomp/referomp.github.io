@@ -5,4 +5,6 @@
 .map-wrap iframe{
     margin: 20px 0 40px;
     width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 10px grey;
 }

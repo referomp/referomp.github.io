@@ -287,69 +287,7 @@ main {
 
 .supporters a img:hover{
     transform: scale(1.06);
-    
 }
-
-/* General Landing Page Feature Rules */
-
-/* .feature1 h3{
-    font-size: 1.4rem;
-    color: var(--color-text-themed);
-    padding-bottom: 1em;
-}
-
-.feature1 {
-    align-self: center;
-    padding: 2em;
-    max-width: 42ch;
-    color: var(--color-text-dark-grey);
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-.feature2 {
-    align-self: center;
-    justify-self: right;
-    text-align: right;
-    padding: 2em;
-    max-width: 42ch;
-    color: var(--color-text-dark-grey);
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-.feature2 h3{
-    font-size: 1.4rem;
-    color: var(--color-text-themed);
-    padding-bottom: 1em;
-}
-
-.feature-image{
-    display: block;
-    width: auto;
-    max-width: 90%;
-    object-fit: cover; 
-    justify-self: center;
-    image-rendering: optimizeSpeed;
-    box-shadow: 0 0 10px var(--color-border-grey);  
-} */
-
-/* .land-faq{
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    padding: 4em 2em;
-    flex-direction: column;
-}
-
-.land-faq h3{
-    margin-top: 1.4em;
-}
-
-.land-faq p{
-    text-indent: 24px;
-    margin-top: 0.4em;
-} */
 
 /* Early Bird Page */
 .earlybird {
@@ -388,7 +326,7 @@ main {
 
 /* About Us Page */
 .about {
-    max-width: 1000px;
+    max-width: 760px;
     margin: auto;
     padding: 80px 4%;
     display: flex;
@@ -399,12 +337,12 @@ main {
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0.6)
+        rgba(0, 0, 0, 0.7)
       ),
     url(/images/whiteboard-and-person-scaledown.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100%;
+    max-width: 90%;
     color: var(--color-text-white);
     padding: 16%;
     margin-bottom: 10px;
@@ -413,13 +351,22 @@ main {
 
 .about h2{
     margin: 30px 0 6px;
-    max-width: 80%;
 }
 
 .about p{
-    margin-top: 12px;
+    margin: 12px auto 0;
     text-indent: 20px;
+    max-width: 90ch;
+    line-height: 1.75;
 }
+
+.about img{
+    width: 90%;
+    max-height: 400px;
+    margin: auto;
+    object-fit: contain;
+}
+
 
 /* Blog homePage */
 .blog-home {

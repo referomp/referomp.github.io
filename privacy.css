@@ -1,6 +1,6 @@
 .privacy {
     max-width: 100ch;
-    line-height: 1.75;
+    
     padding: 4%;
 }
 
@@ -11,9 +11,11 @@
 .privacy ul{
     margin: 8px 44px;
     list-style-type: square;
+    line-height: 1.75;
 }
 
 .privacy p{
     margin-top: 16px;
     text-indent: 3ch;
+    line-height: 1.75;
 }

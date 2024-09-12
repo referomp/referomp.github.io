@@ -1,0 +1,60 @@
+/* General Landing Page Feature Rules */
+
+/* .feature1 h3{
+    font-size: 1.4rem;
+    color: var(--color-text-themed);
+    padding-bottom: 1em;
+}
+
+.feature1 {
+    align-self: center;
+    padding: 2em;
+    max-width: 42ch;
+    color: var(--color-text-dark-grey);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.feature2 {
+    align-self: center;
+    justify-self: right;
+    text-align: right;
+    padding: 2em;
+    max-width: 42ch;
+    color: var(--color-text-dark-grey);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.feature2 h3{
+    font-size: 1.4rem;
+    color: var(--color-text-themed);
+    padding-bottom: 1em;
+}
+
+.feature-image{
+    display: block;
+    width: auto;
+    max-width: 90%;
+    object-fit: cover; 
+    justify-self: center;
+    image-rendering: optimizeSpeed;
+    box-shadow: 0 0 10px var(--color-border-grey);  
+} */
+
+/* .land-faq{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 4em 2em;
+    flex-direction: column;
+}
+
+.land-faq h3{
+    margin-top: 1.4em;
+}
+
+.land-faq p{
+    text-indent: 24px;
+    margin-top: 0.4em;
+} */ 

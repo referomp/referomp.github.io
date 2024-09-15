@@ -166,11 +166,11 @@ nav ul li:nth-last-child(1) {
 }
 
 /* Main Area */
-.dark-mode {
+/* .dark-mode {
     background-color: rgb(24, 24, 54);
     color: rgb(192, 185, 255);
     transition: 0.3s;
-}
+} */
 
 .dark-mode-btn {
     position: fixed;

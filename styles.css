@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
 }
@@ -73,7 +73,7 @@ body {
     display: grid;
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: 2fr 8fr 2fr;
+    grid-template-columns: 1fr 8fr 1fr;
     grid-template-areas: "header header header" "main main main" "footer footer footer";
 }
 
@@ -82,7 +82,9 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1920px;
+    margin: 0 auto 0;
     list-style: none;
     font-size: 1.2rem;
     font-weight: 500;
@@ -100,7 +102,7 @@ nav a {
     padding: 0 1vw;
     display: flex;
     align-items: center;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 nav li:first-child {
@@ -193,9 +195,8 @@ nav ul li:nth-last-child(1) {
 /* General Page Layout */
 main {
     grid-area: main;
-    margin: 60px auto 0;
-    padding: 0 4%; 
-    max-width: 1200px;
+    /* margin: 60px 0; if 0 goes to auto, then it restrains how it works background headline */
+    /* max-width: 1200px; */
     /* min-height: 100vh; */
     /* min-height: 100dvh; */
     background-color: white;
@@ -208,7 +209,9 @@ main {
     display: flex;
     flex-wrap: wrap-reverse;
     gap: 1rem;
-    margin: 2em auto 0;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    padding: 0 4%;
     align-items: center;
     justify-content: space-between;
 }
@@ -271,21 +274,28 @@ main {
 }
 
 .supporters {
-    margin: 2rem auto 0;
+    margin: 0 auto 0;
+    padding: 0 4% 0;
     max-width: 1200px;
+    font-size: 14px;
+}
+
+.supporters-logo {
+    margin: 2rem auto 0;
+    /* max-width: 1200px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.supporters a img{
+.supporters-logo a img{
     max-height: 100px;
     margin-bottom: 2rem;
     transition: transform 0.3s ease-in-out;
 }
 
-.supporters a img:hover{
+.supporters-logo a img:hover{
     transform: scale(1.06);
 }
 
@@ -357,6 +367,7 @@ main {
     margin: 12px auto 0;
     text-indent: 20px;
     max-width: 90ch;
+    font-weight: 100;
     line-height: 1.75;
 }
 
@@ -365,71 +376,6 @@ main {
     max-height: 400px;
     margin: auto;
     object-fit: contain;
-}
-
-
-/* Blog homePage */
-.blog-home {
-    max-width: 900px;
-    margin: auto;
-    padding: 80px 4%;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-
-.blog-home p {
-    text-align: justify;
-}
-
-.blog-home a {
-    color: unset;
-}
-
-/* Article */
-.article-tags {
-    margin-left: 16px;
-    padding: 4px 10px;
-    max-width: fit-content;    
-    background-color: rgb(26, 224, 0);
-    color: white;
-    font-weight: 550;
-    box-shadow: 0px -2px 6px rgb(26, 224, 0);
-}
-
-article {
-    padding: 0.8em;
-    box-shadow: 0px 0px 10px lightslategrey;
-    max-height: 500px;
-}
-
-article:hover {
-    box-shadow: 0 0 10px rgb(75, 75, 75);
-}
-
-.article-desc {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-    margin-top: 1em;
-}
-
-article div div {
-    display: flex;
-    flex-direction: column;
-    font-size: 0.9rem;
-}
-
-.article-desc img{
-    object-fit: contain;
-    box-shadow: 0 0 10px gray;
-}
-
-article h3 {
-    font-weight: 400;
-    font-size: 1.1rem;
-    text-indent: 5%;
-    padding: 0 1em 1em 0;
 }
 
 /* Footer */
@@ -562,23 +508,24 @@ footer .trademark {
     .menu-button{
         display: block;
     }
-    .article-desc{
-        flex-direction: column;
-    }
     .mission{
         max-width: 100%;
     }
     .headline{
         max-width: 100%;
+        margin: auto;
     }
     .headline h1{
         font-size: 26px;
+        max-width: 600px;
     }
     .landing-page img {
         max-width: 100%;
+        padding-top: 40px;
     }
     main {
-        max-width: 700px;
+        /* max-width: 700px; */
+        margin: 0 auto;
     }
 }
 

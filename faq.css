@@ -1,20 +1,20 @@
-.privacy {
+.faq {
     max-width: 100ch;
     margin: 80px auto 0;
     padding: 0 4%;
 }
 
-.privacy h2{
+.faq h2{
     margin: 20px 0 0;
 }
 
-.privacy ul{
+.faq ul{
     margin: 8px 44px;
     list-style-type: square;
     line-height: 1.75;
 }
 
-.privacy p{
+.faq p{
     margin-top: 16px;
     text-indent: 3ch;
     line-height: 1.75;

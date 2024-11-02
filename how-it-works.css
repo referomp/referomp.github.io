@@ -1,0 +1,193 @@
+/* Section= HIW-Headline */
+.hiw-headline {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0, 183, 255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0, 183, 255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0, 183, 255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#00d4ff",GradientType=1);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 180px 4% 0;
+}
+
+.hiw-headline h1 {
+    margin: 0 auto 40px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.hiw-headline h2 {
+    font-size: 40px;
+    /* text-shadow: 4px 4px 4px rgb(161, 161, 161); */
+}
+
+.hiw-headline h3 {
+    margin: 40px auto;
+    max-width: 70ch;
+    font-size: 16px;
+}
+
+.hiw-headline a{
+    padding: 10px 56px;
+    align-content: center;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.30);
+    font-size: 24px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.hiw-headline a:hover {
+    color: white;
+    background-color: rgb(35, 112, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.60);
+    transition: ease-out 0.3 s;
+}
+
+/* Section= Customer Segmentation */
+.customer-segmentation {
+    margin: 220px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customer-segmentation h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+.customers {
+    margin: 50px auto 100px;
+    max-width: 2000px;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+ .customers img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+ }
+
+ .customers h3 {
+    max-width: 16ch;
+    margin: auto;
+    text-align: center;
+ }
+
+.customer-segmentation a {
+    margin: 0 auto 15px;
+    padding: 14px 32px;
+    border-radius: 20px;
+    background-color: rgb(40, 90, 255);
+    color: white;
+    font-size: 24px;
+}
+
+.customer-segmentation p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 72ch;
+}
+
+/* Section= Main Features */
+.main-features h2 {
+    margin: 100px auto 120px;
+    font-size: 36px;
+    color: rgb(0, 34, 109);
+    text-align: center;
+    max-width: 46ch;
+}
+
+.main-features h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+/* Section= Environmental */
+.environmental {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(86,194,83,1) 20%, rgba(86,194,83,1) 80%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(86,194,83,1) 20%, rgba(86,194,83,1) 80%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(86,194,83,1) 20%, rgba(86,194,83,1) 80%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.environmental h3 {
+    margin: 60px auto 0;
+    padding: 60px 0 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+.env-feature {
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1000px;
+    gap: 60px;
+}
+
+.env-feature img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+ }
+
+ .env-feature h4 {
+    font-size: 24px;
+    text-align: center;
+    text-wrap: nowrap;
+    background-color: white;
+    width: fit-content;
+    padding: 12px 25px;
+    border-radius: 20px;
+ }
+
+ .env-feature p {
+    font-size: 20px;
+    margin: 30px 24px;
+    max-width: 50ch;
+ }
+
+ .interest {
+    margin: 0 auto 90px;
+    font-size: 24px;
+    background-color: rgb(40, 90, 255);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+ }
+
+ /* Section= Extra Features */
+ .extra-features {
+    margin: 80px auto 0;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .extra-features h4 {
+    margin: 0 auto 500px;
+    font-size: 28px;
+    text-align: center;
+
+ }
+
+ #faq-btn {
+    margin: 0 auto 80px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    text-decoration-line: underline;
+ }
+

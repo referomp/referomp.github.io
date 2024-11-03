@@ -98,9 +98,12 @@
 }
 
 /* Section= Main Features */
+.main-features {
+    padding: 0 4%;
+}
+
 .main-features h2 {
     margin: 100px auto 120px;
-    padding: 0 4%;
     font-size: 36px;
     color: rgb(0, 34, 109);
     text-align: center;
@@ -110,7 +113,51 @@
 .main-features h3 {
     font-size: 28px;
     text-align: center;
-    margin-bottom: 500px;
+}
+
+/* Features Carousel */
+#mainCarousel {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 8%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(37, 95, 255);
+    z-index: 0;
+}
+
+#envCarousel {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 8%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(255, 135, 37);
+    z-index: 0;
+}
+
+.carousel-item {
+    position: relative;
+    height: 36rem;
+    max-height: 40rem;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.container img {
+    object-fit: contain;
+    max-height: 26em;
+    scale: 0.8;
+    padding: 1%;
 }
 
 /* Section= Environmental */
@@ -180,7 +227,7 @@
  }
  
  .extra-features h4 {
-    margin: 0 auto 500px;
+    margin: 0 auto;
     font-size: 28px;
     text-align: center;
 

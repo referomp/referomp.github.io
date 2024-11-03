@@ -31,6 +31,9 @@
     <script src="/darkmode.js"></script>
     <script src="/drop-menu.js"></script>
     <link rel="stylesheet" href="/how-it-works.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- Header -->
@@ -91,8 +94,51 @@
     <section class="main-features" >
         <h2>Επωφεληθείτε με την ReFERO, απλοποιώντας τις διαδικασίες των αγοραπωλησιών σας και εξοικονομώντας χρόνο και πόρους</h2>
         <h3>Πιο Συγκεκριμένα</h3>
-        <div class="features-carousel">
-
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="9000" >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img src="/images/partnership-feature.svg" alt="">
+                        <h3>Βρείτε αξιόπιστους συνεργάτες</h3>
+                        <p>Συνεργαστείτε με εγκεκριμένες επιχειρήσεις που τηρούν τα πρότυπα και τις προδιαγραφές ποιότητας, ελαχιστοποιώντας τις αντιπαραθέσεις</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="/images/anonymity-feature.svg" alt="" class="u-photo">
+                        <h3>Διασφάλιστε την αμφίδρομη ανωνυμία σας</h3>
+                        <p>Επιλέξτε να πραγματοποιήσετε συναλλαγές με επιχειρήσεις ανώνυμα, χωρίς να γνωρίζουν με ποιό άτομο συνομιλούν, αποφεύγοντας έτσι σενάρια δολιοφθοράς</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="/images/twoway-reviews-feature.svg" alt="">
+                        <h3>Βρείτε Αμφίδρομες αξιολογήσεις</h3>
+                        <p>Αξιολογείστε και αξιολογηθείτε μόνο από αληθινά πραγματοποιημένες συναλλαγές. Δείτε αναλυτικά την βαθμολογία κάθε επιχείρησης σε κάθε κατηγορία όπως ποιότητα, φερεγγυότητα, συνέπεια και άλλα</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="/images/quality-control-feature.svg" alt="">
+                        <h3>Παραλάβετε αυτά που συμφωνήσατε</h3>
+                        <p>Αποφύγετε αποκλίσεις σε ποιότητα και ποσότητα, καθυστερήσεις παράδοσης και καθυστερήσεις εξόφλησης. Μην ανησυχείτε, ακόμα και εάν συμβούν, η ReFERO θα βρίσκεται εκεί για να τις αντιμετωπίσει, μπορείτε να μείνετε ήσυχοι!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
         </div>
     </section>
     <section class="environmental">
@@ -116,7 +162,44 @@
     <section class="extra-features">
         <h4>Ενώ μπορείτε να επωφεληθείτε επίσης</h4>
         <div class="features-carousel">
-
+            <div id="envCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#envCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#envCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#envCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <img src="" alt="">
+                            <h3>example 1</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quia illo eius obcaecati laboriosam libero, dicta tenetur, hic numquam, repellat consectetur cupiditate a nesciunt enim! Quibusdam magnam sapiente cupiditate officia?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img src="" alt="">
+                            <h3>example 2</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quia illo eius obcaecati laboriosam libero, dicta tenetur, hic numquam, repellat consectetur cupiditate a nesciunt enim! Quibusdam magnam sapiente cupiditate officia?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img src="" alt="">
+                            <h3>example 3</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quia illo eius obcaecati laboriosam libero, dicta tenetur, hic numquam, repellat consectetur cupiditate a nesciunt enim! Quibusdam magnam sapiente cupiditate officia?</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#envCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#envCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
         </div>
         <a class="interest" href="/contact.html">Δηλώστε το ενδιαφέρον σας</a>
         <a id="faq-btn" href="/faq.html">Επισκεφτείτε τις συχνές ερωτήσεις</a>

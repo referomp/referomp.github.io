@@ -7,34 +7,38 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#00d4ff",GradientType=1);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    padding: 180px 4% 0;
+    padding: 11rem 4% 12rem;
 }
 
 .hiw-headline h1 {
-    margin: 0 auto 40px;
+    margin: 0 auto 2.5rem;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .hiw-headline h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 34ch;
     /* text-shadow: 4px 4px 4px rgb(161, 161, 161); */
 }
 
 .hiw-headline h3 {
-    margin: 40px auto;
-    max-width: 70ch;
-    font-size: 16px;
+    margin: 2.5rem auto;
+    max-width: 74ch;
+    font-size: 1rem;
 }
 
 .hiw-headline a{
-    padding: 10px 56px;
+    padding: 0.625rem 3.5rem;
     align-content: center;
     border-radius: 20px;
     color: black;
     background-color: white;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.30);
-    font-size: 24px;
+    font-size: 1.5rem;
+    text-decoration: none;
     font-weight: 500;
     transition: 0.3s;
 }
@@ -48,7 +52,7 @@
 
 /* Section= Customer Segmentation */
 .customer-segmentation {
-    margin: 220px auto 0;
+    margin: 4.5rem auto 0;
     padding: 0 4%;
     display: flex;
     flex-direction: column;
@@ -56,13 +60,13 @@
 }
 
 .customer-segmentation h2{
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .customers {
-    margin: 50px auto 100px;
-    max-width: 2000px;
+    margin: 3rem auto 6rem;
+    max-width: 125rem;
     display: flex;
     gap: 3rem;
     justify-content: space-between;
@@ -83,12 +87,13 @@
  }
 
 .customer-segmentation a {
-    margin: 0 auto 15px;
-    padding: 14px 32px;
+    margin: 0 auto 1rem;
+    padding: 1rem 2rem;
     border-radius: 20px;
     background-color: rgb(40, 90, 255);
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .customer-segmentation p {
@@ -103,22 +108,22 @@
 }
 
 .main-features h2 {
-    margin: 100px auto 120px;
-    font-size: 36px;
+    margin: 6.25rem auto 7.5rem;
+    font-size: 2.25rem;
     color: rgb(0, 34, 109);
     text-align: center;
     max-width: 46ch;
 }
 
 .main-features h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     text-align: center;
 }
 
 /* Features Carousel */
 #mainCarousel {
-    max-width: 1000px;
-    margin: 40px auto;
+    max-width: 62.5rem;
+    margin: 2.5rem auto;
     padding: 0 8%;
     border-radius: 30px;
     box-shadow: 0 0 10px black;
@@ -127,8 +132,8 @@
 }
 
 #envCarousel {
-    max-width: 1000px;
-    margin: 40px auto;
+    max-width: 62.5rem;
+    margin: 2.5rem auto;
     padding: 0 8%;
     border-radius: 30px;
     box-shadow: 0 0 10px black;
@@ -172,55 +177,57 @@
     flex-direction: column;
 }
 .environmental h3 {
-    margin: 60px auto 0;
-    padding: 60px 0 0;
+    margin: 3.75rem auto ;
+    padding: 3.75rem 0 2rem;
     text-align: center;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .env-feature {
-    margin: 20px auto 0;
+    margin: 0 auto 0;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    max-width: 1000px;
-    gap: 60px;
+    justify-content: center;
+    max-width: 70rem;
+    column-gap: 3.75rem;
 }
 
 .env-feature img {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     object-fit: contain;
  }
 
  .env-feature h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     background-color: white;
     width: fit-content;
-    padding: 10px 25px;
+    padding: 0.625rem 1.5rem;
     border-radius: 20px;
  }
 
  .env-feature p {
-    font-size: 20px;
-    margin: 30px 24px;
+    font-size: 1.25rem;
+    margin: 2rem 1.5rem;
     max-width: 50ch;
  }
 
  .interest {
-    margin: 0 auto 90px;
-    font-size: 24px;
+    margin: 0 auto 5.75rem;
+    font-size: 1.5rem;
+    text-decoration: none;
     background-color: rgb(40, 90, 255);
     color: white;
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem;
     border-radius: 20px;
  }
 
  /* Section= Extra Features */
  .extra-features {
-    margin: 80px auto 0;
+    margin: 5rem auto 0;
     padding: 0 4%;
     display: flex;
     flex-direction: column;
@@ -228,17 +235,17 @@
  
  .extra-features h4 {
     margin: 0 auto;
-    font-size: 28px;
+    font-size: 1.75rem;
     text-align: center;
 
  }
 
  #faq-btn {
-    margin: 0 auto 80px;
+    margin: 0 auto 5rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: black;
-    text-decoration-line: underline;
+    text-decoration: none;
  }
 
 

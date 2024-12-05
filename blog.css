@@ -30,7 +30,7 @@
 article {
     padding: 0.8em;
     box-shadow: 0px 0px 10px lightslategrey;
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 
 article:hover { 

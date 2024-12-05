@@ -85,6 +85,7 @@ nav ul{
     justify-content: flex-end;
     /* width: 100%; */
     max-width: 1920px;
+    padding: 0;
     margin: 0 auto 0;
     list-style: none;
     font-size: 1.2rem;
@@ -104,6 +105,7 @@ nav a {
     display: flex;
     align-items: center;
     font-weight: 400;
+    text-decoration: none;
 }
 
 nav ul li:nth-child(-n+5) :hover {
@@ -277,7 +279,10 @@ main {
     margin: 0 auto 0;
     padding: 0 4% 0;
     max-width: 1200px;
-    font-size: 14px;
+}
+
+.supporters h2 {
+    font-size: 1.5rem;
 }
 
 .supporters-logo {
@@ -400,7 +405,7 @@ footer a:hover{
 
 footer .trademark {
     margin: 20px auto 1rem auto;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem;
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
@@ -419,10 +424,12 @@ footer .trademark {
     flex-wrap: wrap;
     gap: 1.4rem;
     justify-content: space-between;
+    box-sizing: initial;
 }
 
 .mission{
     max-width: 40%;
+    line-height: normal;
 }
 
 .mission a{
@@ -433,11 +440,13 @@ footer .trademark {
     list-style-type: none;
     color: white;
     line-height: 1.6rem;
-
+    padding: 0;
 }
 
 .footerLinks h4{
     margin-bottom: 12px;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .footerForm{
@@ -483,7 +492,7 @@ footer .trademark {
     background-color: rgb(0, 0, 0);
 }
 
-    /* Social Media */
+/* Social Media */
 
 .socialmedia ul{
     display: flex;

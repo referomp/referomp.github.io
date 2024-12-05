@@ -106,16 +106,15 @@ nav a {
     font-weight: 400;
 }
 
-nav li:first-child {
-    margin-right: auto;
-}
-
 nav ul li:nth-child(-n+5) :hover {
     color: rgb(74, 74, 223);
     background-color: rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(0px);
-    border-bottom: 4px solid rgb(74, 74, 223);
+    /* border-bottom: 4px solid rgb(74, 74, 223); */
+}
+nav li:first-child {
+    margin-right: auto;
 }
 
 nav ul li:nth-last-child(2) {

@@ -1,0 +1,109 @@
+.article {
+    max-width: 100ch;
+    margin: 80px auto 0;
+    padding: 0 4%;
+}
+
+.article img {
+    width: 100%;
+    max-height: 400px;
+    margin: 0.5rem auto;
+    object-fit: contain;
+}
+
+.article figure {
+    margin: 1rem auto 2rem;
+    text-align: center;
+}
+
+/* Blog Details */
+.blog-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-details h4 {
+    display: block;
+}
+
+/* Blog Contents */
+.blog-contents{
+    margin-left: 3rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.blog-contents a {
+    transition: 0.4s ease-in-out;
+    color: black;
+    display: block;
+}
+
+.blog-contents a:hover {
+    margin-left: -0.25rem;
+    transition: 0.2s ease-in-out;
+    text-shadow: 0 0 16px rgb(129, 129, 129);
+    
+}
+
+/* Headings */
+.article h1 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: rgb(3, 3, 218);
+    border-bottom: 2px solid lightgrey;
+}
+
+.article h2 {
+    margin: 2.5rem 0 0.5rem;
+    scroll-margin-top: 5rem;
+}
+
+.article h3 {
+    margin: 1.5rem 0 0.5rem;
+}
+
+.article h4 {
+    margin: 1.5rem 0 0.5rem;
+}
+
+.article p {
+    line-height: 1.75;
+    margin-bottom: 0.5rem;
+}
+
+.article ul {
+    line-height: 1.75;
+    padding-left: 4rem;
+}
+
+/* Article Example */
+.article-example {
+    margin: 1rem 0;
+    /* padding: 1rem; */
+    box-shadow: 0 0 10px gray;
+}
+
+.article-example h4 {
+   padding: 0.5rem 0 0.25rem 1rem;
+   background-color: rgb(20, 127, 250);
+   color: white;
+}
+
+.article-example p {
+    padding: 0.5rem 1rem;
+    text-align: justify;
+}
+
+
+@media (max-width: 940px) {
+    .article h1{
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .article h1{
+        font-size: 1.5rem;
+    }
+}

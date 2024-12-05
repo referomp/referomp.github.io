@@ -1,0 +1,48 @@
+<!-- old footer Version 25-11-2024 -->
+ 
+ <!-- Footer -->
+<footer>
+    <div class="footerLinks">
+        <div class="mission">
+            <h4>Η Αποστολή μας</h4>
+            <p>Κύριος στόχος μας στη ReFERO, είναι να αξιοποιήσουμε τις σύγχρονες τεχνολογίες της εποχής, δημιουργώντας μια αξιόπιστη πλατφόρμα αγορών και πωλήσεων που θα μπορούν να εμπιστεύονται οι επιχειρήσεις με τις οικονομικές τους συναλλαγές. 
+                <a href="/how-it-works.html">Περισσότερα ...</a>
+                <!-- <br>Παράλληλα, τηρώντας ασφαλή τα προσωπικά και οικονομικά δεδομένα των επιχειρήσεων, σύμφωνα με τις ισχύουσες νομοθεσίες της Ευρωπαϊκής Ένωσης, οι επιχειρήσεις θα μπορούν πλέον να εστιάσουν σε διαφορετικές πτυχές της επιχείρησης τους.</p> -->
+        </div>
+        <div>
+            <h4>Η ReFERO</h4>
+            <ul>
+                <li><a href="/about-us.html">Σχετικά με μας</a></li>
+                <li><a href="/contact.html">Επικοινωνήστε μαζί μας</a></li>
+                <li><a href="/politiki-aporritou.html">Πολιτική Απορρήτου</a></li>
+                <li><a href="/faq.html">Συχνές Ερωτήσεις</a></li>
+            </ul>
+        </div>
+        <div class="socialmedia">
+            <h4>Κοινωνικά Δίκτυα</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/company/refer%CE%BF/?" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://www.facebook.com/referonet/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/refero_company/" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+                <li><a href="https://www.youtube.com/@ReFERO-MarketPlace" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+        </div>
+        <div class="newsletter">
+            <h4>Εγγραφείτε στο Newsletter μας:</h4>
+            <form class="footerForm" name="submit-to-google-sheet">
+                <input type="email" name="Email" placeholder="Συμπληρώστε το email σας" required>
+                <button type="submit">Εγγραφείτε</button>
+            </form>
+            <span id="newsletter-success-msg"></span>
+        </div>
+    </div>
+    <div class="trademark">
+        <p><a href="/protimhseis-cookies.html">Cookies</a></p>
+        <p><a href="/politiki-aporritou.html">Πολιτική Απορρήτου</a>
+        <p><a href="/oroi-xrhshs.html">Όροι Χρήσης</a></p>
+        <p>Θερμοκοιτίδα Thinc, Βασ. Σοφίας 12, Ξάνθη 67100</p>
+    </div>
+    <div id="copyright">All Rights Reserved &copy; 2024 ReFERO </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Αρχική Σελίδα -->
+   <url>
+      <loc>https://www.referonet.com/index.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <!-- Σελίδα How it works -->
+   <url>
+      <loc>https://www.referonet.com/how-it-works.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+
+   <!-- Σελίδα About us -->
+   <url>
+      <loc>https://www.referonet.com/about-us.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Σελίδα Blog -->
+   <url>
+      <loc>https://www.referonet.com/blog.html</loc>
+      <lastmod>2024-11-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+   <!-- Σελίδα Άρθρου Blog Πως τα κριτήρια ESG επηρεάζουν τις επιχειρήσεις -->
+   <url>
+      <loc>https://www.referonet.com/blog/pws-ta-esg-ephreazoyn-tis-epixeirhseis.html</loc>
+      <lastmod>2024-11-26</lastmod>
+   </url>
+
+   <!-- Σελίδα Συμμετοχή στο Ερωτηματολόγιο -->
+   <url>
+      <loc>https://www.referonet.com/symmetoxh-sto-erwthmatologio.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+
+   <!-- Σελίδα FAQ -->
+   <url>
+      <loc>https://www.referonet.com/faq.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+
+   <!-- Σελίδα Επικοινωνίας - Contact -->
+   <url>
+      <loc>https://www.referonet.com/contact.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+
+   <!-- Σελίδα Early bird -->
+   <url>
+      <loc>https://www.referonet.com/early-bird.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+   </url>
+
+   <!-- Σελίδα Όροι Χρήσης -->
+   <url>
+      <loc>https://www.referonet.com/oroi-xrhshs.html</loc>
+      <lastmod>2024-11-28</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+
+   <!-- Σελίδα Πολιτική Απορρήτου -->
+   <url>
+      <loc>https://www.referonet.com/politiki-aporritou.html</loc>
+      <lastmod>2024-08-13</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+
+   <!-- Σελίδα Προτιμήσεις Cookies -->
+   <url>
+      <loc>https://www.referonet.com/protimhseis-cookies.html</loc>
+      <lastmod>2024-11-01</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+
+   <!-- Σελίδα Links -->
+   <url>
+      <loc>https://www.referonet.com/links.html</loc>
+      <lastmod>2024-07-28</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+</urlset>

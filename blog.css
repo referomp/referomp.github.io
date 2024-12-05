@@ -33,7 +33,7 @@ article {
     max-height: 500px;
 }
 
-article:hover {
+article:hover { 
     box-shadow: 0 0 10px rgb(75, 75, 75);
 }
 
@@ -51,8 +51,9 @@ article div div {
 }
 
 .article-desc img{
+    width: 40%;
     object-fit: contain;
-    box-shadow: 0 0 10px gray;
+
 }
 
 article h3 {
@@ -67,5 +68,8 @@ article h3 {
 @media (max-width: 940px) {
     .article-desc{
         flex-direction: column;
+    }
+    .article-desc img{
+        width: 100%;
     }
 }
